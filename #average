@@ -1,0 +1,7 @@
+a=float(input("enter student marks:"))
+b=float(input("enter student marks:"))
+c=float(input("enter student marks:"))
+d=float(input("enter student marks:"))
+e=float(input("enter student marks:"))
+sum=(a+b+c+d+e)/5
+print("%.2f"%sum)
