@@ -1,0 +1,10 @@
+s=int(input("enter square side:"))
+l=int(input("enter length of a rectangle rectangle:"))
+b=int(input("enter breadth of rectangle:"))
+r=float(input("enter radius of circle:"))
+a=s*s
+b=l*b
+c=3.14*r*r
+print(a)
+print(b)
+print("%.2f"% c)
