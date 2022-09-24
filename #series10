@@ -1,0 +1,10 @@
+n=int(input())
+i=1
+a=95.0
+b=18.5
+c=2.0
+while i<=n:
+    print(a,end=" ")
+    b=b+c
+    a=a+b
+    i+=1
