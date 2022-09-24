@@ -1,0 +1,15 @@
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+e=int(input())
+f=a*350.34
+g=b*230.90
+h=c*190.55
+i=d*125.30
+j=e*180.90
+z=f+g+h+i+j
+if z<15000:
+    print("yes")
+else:
+    print("no")
