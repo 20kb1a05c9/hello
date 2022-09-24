@@ -1,0 +1,7 @@
+rows=int(input("enter number of rows:"))
+column=int(input("enter number of column:"))
+number=int(input("enter the tree number:"))
+if number-rows==6 or number-column==6:
+    print("Yes")
+else:
+    print("No")
