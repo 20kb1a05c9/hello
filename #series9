@@ -1,0 +1,8 @@
+n=int(input())
+i=1
+a=2
+while i<=n:
+    print(a,end=" ")
+    c=a*a
+    a=c-1
+    i+=1
