@@ -1,0 +1,14 @@
+a=int(input())
+b=int(input())
+c=a+b
+print(c)
+s=a-b
+print(s)
+m=a*b
+print(m)
+d=a/b
+print(d)
+f=a//b
+print(f)
+r=a%b
+print(r)
