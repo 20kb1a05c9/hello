@@ -1,0 +1,6 @@
+def binary(dec):
+    if (dec>0):
+        binary((int)(dec/2))
+        print(dec%2,end="")
+dec=int(input())
+binary(dec)
