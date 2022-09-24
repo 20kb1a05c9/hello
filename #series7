@@ -1,0 +1,10 @@
+n=int(input())
+i=1
+a=1
+b=2.0
+while i<=n:
+    print(a,end=" ")
+    print(b,end=" ")
+    a=a*3
+    b=b*3
+    i+=1
