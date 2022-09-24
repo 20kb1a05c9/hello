@@ -1,0 +1,12 @@
+a=int(input())
+b=float(input())
+c=int(input())
+d=b*c
+e=(20/100)*b*c
+f=(b*c)+e
+if a<=3:
+    print("Hotel Tariff:Rs.%.2f"% d)
+elif a>=4 and a<=12:
+   print("Hotel Tariff:Rs.%.2f"% f)
+else:
+    print("Invalid Input")
