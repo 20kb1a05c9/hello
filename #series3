@@ -1,0 +1,7 @@
+n=int(input())
+i=1
+pr=3
+while i<=n:
+    print(pr,end=" ")
+    pr=pr*3
+    i+=1
