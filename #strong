@@ -1,0 +1,16 @@
+num=int(input())
+temp=num
+sum1=0
+while(num):
+    i=1
+    f=1
+    r=num%10
+    while(i<=r):
+        f=f*i
+        i=i+1
+    sum1=sum1+f
+    num=num//10
+if(sum1==temp):
+    print("Strong Number")
+else:
+    print("Not a Strong Number")
