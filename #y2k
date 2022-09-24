@@ -1,0 +1,18 @@
+a=int(input("enter year of birth:"))
+b=int(input("enter current year:"))
+if(a%10!=a and b%10!=b):
+       a=1900+a
+       b=1900+b
+else:
+    a=1900+a
+    b=2000+b
+if a>b:
+    age=a-b
+else:
+    age=b-a
+if age>100:
+    d=age-100
+    print("your age is:",d)
+else:
+    print("your age is",age)
+    
