@@ -1,0 +1,16 @@
+x=float(input())
+y=int(input())
+a=12*y
+print("Enter the price of a dozen mangoes")
+print("Enter the price at which 1 mango being sold")
+if x>a:
+  l=float(x-a)
+  format_l="{:.2f}".format(l)
+  print("Loss : Rs.",format_l)
+elif x<a:
+    p=float(a-x)
+    format_p="{:.2f}".format(p)
+    print("Profit : Rs.",format_p)
+else:
+    print("No profit nor loss")
+
